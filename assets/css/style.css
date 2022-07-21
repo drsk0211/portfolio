@@ -1,0 +1,71 @@
+.top{
+    width: 100%;
+    
+}
+
+.top-button{
+    bo
+}
+
+.top-img img{
+    width: 100%;
+}
+.top-button{display: inline-block;cursor: pointer; font-size:19px;text-decoration:none;padding:10px 20px; color:#354251;background:#ffff0;border-radius:60px;border:1px solid #354251;}
+.top-button:hover{background:#354251;color:#ffffff;border:1px solid #354251;transition: all 0.2s ease;text-decoration: none;}
+
+.service-item {
+    border: 1px solid rgb(192, 192, 192);
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.service-item:hover {
+    border-color: #3863ff;
+}
+
+.service-header {
+    text-align: center;
+}
+
+.service-item {
+    text-align: center;    
+}
+
+.service-item_text {
+    margin-left: 0.5em;
+    margin-right:0.5em;
+}
+
+.service-item p {
+    font-size: 1.1em; 
+}
+
+.service-item_image-subtext {
+    padding-top: 1em;
+}
+
+.service-item_image img {
+    width: 80%;
+}
+
+.service-item_header {
+    font-size: 1.6em;
+    margin-top: 0.6em;
+    color: #3863ff;
+    font-weight: 500;
+}
+
+.service-item_button {
+    background-color: #3863ff;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 1.5em;
+}
+
+.service-item_button a {
+    color: white;
+}
+
+.service-item_button a:hover{
+    text-decoration: none;
+}
