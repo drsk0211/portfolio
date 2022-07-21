@@ -44,7 +44,6 @@
 
 .service-header {
     text-align: center;
-    font-size: 2em;
 }
 
 .service-item {
@@ -91,4 +90,37 @@
 
 .service-item_button a:hover {
     text-decoration: none;
+}
+
+.portfolio {
+    background-color: #343A40;
+    color: white;
+}
+
+.portfolio-header {}
+
+.portfolio-item img {
+    width: 100%;
+    -webkit-box-shadow: 8px 8px 0px 0px rgba(255, 255, 255, 0.6);
+    -moz-box-shadow: 8px 8px 0px 0px rgba(255, 255, 255, 0.6);
+    box-shadow: 8px 8px 0px 0px rgba(255, 255, 255, 0.6);
+}
+
+.portfolio-item img:hover{
+    width: 100%;
+    -webkit-box-shadow: 8px 8px 0px 0px #3863ff;
+    -moz-box-shadow: 8px 8px 0px 0px #3863ff;
+    box-shadow: 8px 8px 0px 0px #3863ff;
+    transition: 0.5s;
+}
+
+
+.portfolio-item {
+
+}
+
+
+.portfolio-item p {
+    padding: 0 !important;
+    margin: 0 !important;
 }
