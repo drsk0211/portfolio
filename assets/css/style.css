@@ -1,43 +1,66 @@
-.top{
+.top {
     width: 100%;
-    
+
 }
 
-.top-button{
+.top-button {
     bo
 }
 
-.top-img img{
+.top-img img {
     width: 100%;
 }
-.top-button{display: inline-block;cursor: pointer; font-size:19px;text-decoration:none;padding:10px 20px; color:#354251;background:#ffff0;border-radius:60px;border:1px solid #354251;}
-.top-button:hover{background:#354251;color:#ffffff;border:1px solid #354251;transition: all 0.2s ease;text-decoration: none;}
+
+.top-button {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 19px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #354251;
+    background: #ffff0;
+    border-radius: 60px;
+    border: 1px solid #354251;
+}
+
+.top-button:hover {
+    background: #354251;
+    color: #ffffff;
+    border: 1px solid #354251;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
 
 .service-item {
-    border: 1px solid rgb(192, 192, 192);
     margin-left: 1em;
     margin-right: 1em;
 }
 
+
 .service-item:hover {
-    border-color: #3863ff;
+    transform: scale(1.03);
+    transition: transform 0.25s;
 }
 
 .service-header {
     text-align: center;
+    font-size: 2em;
 }
 
 .service-item {
-    text-align: center;    
+    text-align: center;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 }
 
 .service-item_text {
     margin-left: 0.5em;
-    margin-right:0.5em;
+    margin-right: 0.5em;
 }
 
 .service-item p {
-    font-size: 1.1em; 
+    font-size: 1.1em;
 }
 
 .service-item_image-subtext {
@@ -50,7 +73,7 @@
 
 .service-item_header {
     font-size: 1.6em;
-    margin-top: 0.6em;
+    padding-top: 0.6em;
     color: #3863ff;
     font-weight: 500;
 }
@@ -66,6 +89,6 @@
     color: white;
 }
 
-.service-item_button a:hover{
+.service-item_button a:hover {
     text-decoration: none;
 }
