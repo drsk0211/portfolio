@@ -106,7 +106,7 @@
     box-shadow: 8px 8px 0px 0px rgba(255, 255, 255, 0.6);
 }
 
-.portfolio-item img:hover{
+.portfolio-item img:hover {
     width: 100%;
     -webkit-box-shadow: 8px 8px 0px 0px #3863ff;
     -moz-box-shadow: 8px 8px 0px 0px #3863ff;
@@ -114,13 +114,48 @@
     transition: 0.5s;
 }
 
-
-.portfolio-item {
-
+.portfolio-item .right {
+    width: 100%;
+    -webkit-box-shadow: -8px 8px 0px 0px rgba(255, 255, 255, 0.6);
+    -moz-box-shadow: -8px 8px 0px 0px rgba(255, 255, 255, 0.6);
+    box-shadow: -8px 8px 0px 0px rgba(255, 255, 255, 0.6);
 }
+
+.portfolio-item .right:hover {
+    width: 100%;
+    -webkit-box-shadow: -8px 8px 0px 0px #3863ff;
+    -moz-box-shadow: -8px 8px 0px 0px #3863ff;
+    box-shadow: -8px 8px 0px 0px #3863ff;
+    transition: 0.5s;
+}
+
+.portfolio-item {}
 
 
 .portfolio-item p {
     padding: 0 !important;
     margin: 0 !important;
+}
+
+.portfolio-button {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #354251;
+    background: #ffffff;
+    border-radius: 0px;
+    border: 1px solid #354251;
+}
+
+.portfolio-button:hover {
+    background: #354251;
+    color: #ffffff;
+    border: 1px solid #354251;
+    transition: all 0.2s ease;
+}
+
+.portfolio-button a:hover {
+    text-decoration: none;
 }
