@@ -1,7 +1,36 @@
 .bg-image {
-    background-image: url("/assets/img/portfolio-header.png");
+    background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.8)), url("/assets/img/portfolio-header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: scroll;
+    color: white;
 }
+
+.bg-image h1 {}
 
 .no-bg {
     background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.breadcrumb-item a {
+    color: white !important;
+}
+
+.portfolio-link a{
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.1em;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #ffffff;
+    background: #ffff0;
+    border-radius: 0px;
+    border: 1px solid #ffffff;
+}
+
+.portfolio-link a:hover {
+    background: #ffffff;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    transition: all 0.2s ease;
 }

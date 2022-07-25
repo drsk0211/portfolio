@@ -164,3 +164,7 @@
 .portfolio-button:hover {
     text-decoration: none;
 }
+ 
+.breadcrumb-item a:hover {
+ text-decoration: none;
+}
