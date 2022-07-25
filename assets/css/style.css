@@ -5,6 +5,7 @@
 
 .number {
     font-size: 1.4em;
+    font-weight: 300;
 }
 
 .number:hover{
@@ -167,4 +168,8 @@
  
 .breadcrumb-item a:hover {
  text-decoration: none;
+}
+
+#logo {
+    color: #3863ff;
 }
