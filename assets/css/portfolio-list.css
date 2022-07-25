@@ -1,0 +1,27 @@
+.filter-nav-button {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 7px 13px;
+    color: #354251;
+    background: #ffff0;
+    border-radius: 0px;
+    border: 2px solid #354251;
+}
+
+.filter-nav-button:hover {
+    background: #354251;
+    color: #ffffff;
+    border: 2px solid #354251;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.active-button {
+    background: #354251;
+    color: #ffffff;
+    border: 2px solid #354251;
+
+   
+}

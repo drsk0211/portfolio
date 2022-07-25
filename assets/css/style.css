@@ -3,6 +3,14 @@
 
 }
 
+.number {
+    font-size: 1.4em;
+}
+
+.number:hover{
+    text-decoration: none;
+}
+
 .top-button {
     bo
 }
@@ -129,9 +137,6 @@
     transition: 0.5s;
 }
 
-.portfolio-item {}
-
-
 .portfolio-item p {
     padding: 0 !important;
     margin: 0 !important;
@@ -156,6 +161,6 @@
     transition: all 0.2s ease;
 }
 
-.portfolio-button a:hover {
+.portfolio-button:hover {
     text-decoration: none;
 }
