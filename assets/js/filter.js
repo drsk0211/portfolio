@@ -5,14 +5,13 @@ $(document).ready(function () {
 
         var selector = $(this).attr("title");
 
-        $('.portfolio-items[title!=' + selector + ']').hide(500);
-        $('.portfolio-items[title=' + selector + ']').show(500);
-        $('.portfolio_item[title!=' + selector + ']').hide(500);
-        $('.portfolio_item[title=' + selector + ']').show(500);
+        $('.filter-item[title!=' + selector + ']').hide(200);
+        $('.filter-item[title=' + selector + ']').show(200);
+     
     });
 
     $(".filter-nav-button[title=Все]").click(function () {
-        $(".portfolio_item").show(500);
+        $(".filter-item").show(500);
     });
 
 });

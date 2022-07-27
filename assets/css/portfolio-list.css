@@ -1,4 +1,6 @@
-
+.card-title {
+    color: #008080;
+}
 
 .filter-nav-button {
     display: inline-block;
@@ -57,6 +59,11 @@
 
 .portfolio-images img {
     width: 100%;
+}
+
+.portfolio_item {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+    
 }
 
 .portfolio_item-button {
