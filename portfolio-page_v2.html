@@ -56,12 +56,82 @@
                 <li class="breadcrumb-item active" aria-current="page"> <a href="">РивалКом</a> </li>
             </ol>
 
-            <div class="header">
-                <h1>Интернет-магазин "РивалКом"</h1>
+            <div class="row">
+                <div class="col-6">
+                    <div class="header">
+                        <h1>Разработка сайта визитки</h1>
+                        <p>Создание сайта визитки для, создающего приборы для измерения уровня</p>
+                    </div>
+
+                    <div class="portfolio-link pt-3 pb-3">
+                        <a href="">old.rivalcom.ru</a>
+                    </div>
+                </div>
             </div>
-            <div class="portfolio-link pt-4">
-                <a href="">old.rivalcom.ru</a>
+        </div>
+    </div>
+
+    <div class="container pt-4">
+        <div class="row">
+            <div class="col-4">
+                <h3>Информация о клиенте</h3>
             </div>
+            <div class="col-8">
+                <p>Компания ООО "РивалКом" была создана в 2006 году специалистами КИПиА, имеющими более чем 10-летний
+                    практический опыт в данной области. Организованное в России производство поставляет на российский
+                    рынок надежные, высококачественные приборы с коротким сроком изготовления, обеспеченные гарантийными
+                    и постгарантийными обязательствами, технической и юридической поддержкой со стороны производителя,
+                    соответствующих самым современным требованиям. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <h3>Задачи</h3>
+            </div>
+            <div class="col-8">
+                <p>Клиент обратился к нам с задачей сделать сайт, для представления компании в сети интернет </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <h3>Результат</h3>
+            </div>
+            <div class="col-8">
+                <ol>
+                    <li>Разработан полноценный сайт-визитка.</li>
+                    <li></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="container pt-3">
+        <div class="row pt-5">
+            <div class="col-9 case-image">
+                <img src="assets/img/rivalcom-main.png" alt="">
+            </div>
+            <div class="col-3">
+                <h4>Главная страница</h4>
+                <p>На главной странице мы разместили информаию о компании и её преимущества, далее идет раздел с
+                    каталогом, информацией о клинтах, выполненных проектах и в конце динамический блок с новостями.</p>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-9 case-image">
+                <img src="assets/img/rivalcom-projects.png" alt="">
+            </div>
+            <div class="col-3">
+                <h4>Проекты</h4>
+                <p>В проектах размещена галерея с фото выполненных работ, описание и характеристики проекта.</p>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-9 case-image">
+                <img src="assets/img/rivalcom-news.png" alt="">
+            </div>
+        </div>
+        <div class="col-3">
+            <h4>Новости</h4>
+            <p>Здесь размещены динаические блоки с последними новостями компании</p>
         </div>
     </div>
 
@@ -78,6 +148,33 @@
     <script src="assets/js/wow.min.js"></script>
     <script>
         new WOW().init();
+    </script>
+    <script>
+        var StickyElement = function (node) {
+            var doc = $(document),
+                fixed = false,
+                anchor = node.find('.sticky-anchor'),
+                content = node.find('.sticky-content');
+            var onScroll = function (e) {
+                var docTop = doc.scrollTop(),
+                    anchorTop = anchor.offset().top;
+                if (docTop > anchorTop) {
+                    if (!fixed) {
+                        anchor.height(content.outerHeight());
+                        content.addClass('fixed');
+                        fixed = true;
+                    }
+                } else {
+                    if (fixed) {
+                        anchor.height(0);
+                        content.removeClass('fixed');
+                        fixed = false;
+                    }
+                }
+            };
+            $(window).on('scroll', onScroll);
+        };
+        var sticky = new StickyElement($('.sticky-element'));
     </script>
 </body>
 

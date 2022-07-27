@@ -30,11 +30,29 @@
 
 .portfolio-link a:hover {
     background: #ffffff;
-    color: #ffffff;
+    color: #0c0c0c;
     border: 1px solid #ffffff;
     transition: all 0.2s ease;
 }
 
 .portfolio-images img{
+    width: 100%;
+}
+
+.header p {
+    font-size: 1.6em;
+}
+	
+.sticky-content.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.sticky-content.fixed section {
+    background: green;        
+}
+
+.case-image img {
     width: 100%;
 }
